@@ -6,7 +6,7 @@ public class PlayerPersistenceModule : PersistenceModule
 {
     [SerializeField] private Player _player;
         
-    public override void OnModuleLoaded(BaseModuleAccessor accessor)
+    public override void OnModuleLoaded(ModuleAccessor accessor)
     {
         _player.Level = accessor.GetData<int>("PlayerLevel");
         _player.Hp = accessor.GetData<int>("PlayerHp");
@@ -14,7 +14,7 @@ public class PlayerPersistenceModule : PersistenceModule
             accessor.GetData<SerializableVector3>("PlayerPosition").ToVector3();
     }
 
-    public override void OnModuleSaving(BaseModuleAccessor accessor)
+    public override void OnModuleSaving(ModuleAccessor accessor)
     {
         accessor.PersistData<int>("PlayerLevel", _player.Level);
         accessor.PersistData<int>("PlayerHp", _player.Hp);
