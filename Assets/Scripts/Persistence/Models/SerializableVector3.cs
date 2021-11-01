@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace DefaultNamespace
+namespace Persistence.Models
 {
     [Serializable]
     public class SerializableVector3
