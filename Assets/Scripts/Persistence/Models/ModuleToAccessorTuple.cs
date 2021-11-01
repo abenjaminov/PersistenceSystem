@@ -6,7 +6,7 @@ namespace DefaultNamespace
     [Serializable]
     public class ModuleToAccessorTuple
     {
-        public BaseModuleAccessor Accessor;
+        public ModuleAccessor Accessor;
         public PersistenceModule Module;
     }
 }
