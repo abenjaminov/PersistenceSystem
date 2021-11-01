@@ -3,42 +3,45 @@ using System.Collections.Generic;
 using Persistence.Models;
 using UnityEngine;
 
-public class PersistenceHandler : MonoBehaviour
+namespace Persistence 
 {
-    [SerializeField] private PersistenceChannel _persistenceChannel;
-    [SerializeField] private List<ModuleToAccessorTuple> _modules;
-
-    private void Start()
+    public class PersistenceHandler : MonoBehaviour
     {
-        LoadModules();
-        
-        _persistenceChannel.OnPersistenceLoaded();
-    }
+        [SerializeField] private PersistenceChannel _persistenceChannel;
+        [SerializeField] private List<ModuleToAccessorTuple> _tuples;
 
-    private void OnApplicationQuit()
-    {
-        SaveModules();
-    }
-
-    private void LoadModules()
-    {
-        foreach (var module in _modules)
+        private void Start()
         {
-            var accessor = module.Accessor;
+            LoadModules();
 
-            accessor.LoadModule();
-            module.Module.OnModuleLoaded(accessor);
+            _persistenceChannel.OnPersistenceLoaded();
         }
-    }
-        
-    private void SaveModules()
-    {
-        foreach (var module in _modules)
-        {
-            var accessor = module.Accessor;
 
-            module.Module.OnModuleSaving(accessor);
-            accessor.SaveModule();
+        private void OnApplicationQuit()
+        {
+            SaveModules();
+        }
+
+        private void LoadModules()
+        {
+            foreach (var tuple in _tuples)
+            {
+                var accessor = tuple.Accessor;
+
+                accessor.LoadModule();
+                tuple.Module.OnModuleLoaded(accessor);
+            }
+        }
+
+        private void SaveModules()
+        {
+            foreach (var tuple in _tuples)
+            {
+                var accessor = tuple.Accessor;
+
+                tuple.Module.OnModuleSaving(accessor);
+                accessor.SaveModule();
+            }
         }
     }
 }
