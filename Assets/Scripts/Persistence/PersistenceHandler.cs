@@ -13,8 +13,6 @@ namespace Persistence
         private void Start()
         {
             LoadModules();
-
-            _persistenceChannel.OnPersistenceLoaded();
         }
 
         private void OnApplicationQuit()
@@ -31,6 +29,8 @@ namespace Persistence
                 accessor.LoadModule();
                 tuple.Module.OnModuleLoaded(accessor);
             }
+           
+            _persistenceChannel.OnPersistenceLoaded();
         }
 
         private void SaveModules()
