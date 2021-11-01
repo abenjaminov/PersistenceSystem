@@ -1,10 +1,13 @@
 using Persistence;
 using UnityEngine;
 
-public abstract class PersistenceModule : MonoBehaviour
+namespace Persistence.Modules
 {
-    public string Name;
-    public ModuleType ModuleType;
-    public abstract void OnModuleLoaded(ModuleAccessor accessor);
-    public abstract void OnModuleSaving(ModuleAccessor accessor);
+    public abstract class PersistenceModule : MonoBehaviour
+    {
+        public string Name;
+        public ModuleType ModuleType;
+        public abstract void OnModuleLoaded(ModuleAccessor accessor);
+        public abstract void OnModuleSaving(ModuleAccessor accessor);
+    }
 }
