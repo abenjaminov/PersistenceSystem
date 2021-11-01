@@ -8,7 +8,7 @@ using UnityEngine;
 namespace Persistence
 {
     [CreateAssetMenu(fileName = "Binary File Accessor", menuName = "ModuleAccessors/Binary Files")]
-    public class FileModuleAccessor : BaseModuleAccessor
+    public class FileModuleAccessor : ModuleAccessor
     {
         private const string FilePrefix = ".dat";
         public string FileName;
