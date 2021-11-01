@@ -1,7 +1,7 @@
 using System;
 using Persistence;
 
-namespace DefaultNamespace
+namespace Persistence.Models
 {
     [Serializable]
     public class ModuleToAccessorTuple
