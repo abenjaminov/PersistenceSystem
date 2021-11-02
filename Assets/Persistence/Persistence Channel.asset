@@ -9,7 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9eca9dc83e88e524ba0164ae5dee5f27, type: 3}
-  m_Name: Persistence Info
+  m_Script: {fileID: 11500000, guid: 4362b043ddf64f5192ee8a665251d124, type: 3}
+  m_Name: Persistence Channel
   m_EditorClassIdentifier: 
-  PersistenceFolder: Presistence

@@ -167,7 +167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a5d98f9c16d40a79fb23f0f18e2226e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _modules:
+  _persistenceChannel: {fileID: 11400000, guid: cb91b702f95affd4095e0f19c46340fe, type: 2}
+  _tuples:
   - Accessor: {fileID: 11400000, guid: 291df350a7dd59046b2a0d7c91b9faf2, type: 2}
     Module: {fileID: 670148261}
 --- !u!114 &670148261
@@ -183,7 +184,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: PlayerData
-  ModuleType: 0
   _player: {fileID: 1665862392}
 --- !u!1 &705507993
 GameObject:
