@@ -5,7 +5,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace Persistence
+namespace Persistence.ModuleAccessors
 {
     [CreateAssetMenu(fileName = "Binary File Accessor", menuName = "ModuleAccessors/Binary Files")]
     public class FileModuleAccessor : ModuleAccessor

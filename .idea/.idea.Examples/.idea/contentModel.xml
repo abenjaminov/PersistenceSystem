@@ -178,14 +178,13 @@
               <e p="SerializableVector3.cs" t="Include" />
             </e>
             <e p="ModuleAccessors" t="Include">
-              <e p="BaseModuleAccessor.cs" t="Include" />
               <e p="FileModuleAccessor.cs" t="Include" />
+              <e p="ModuleAccessor.cs" t="Include" />
             </e>
             <e p="Modules" t="Include">
               <e p="PersistenceModule.cs" t="Include" />
               <e p="PlayerPersistenceModule.cs" t="Include" />
             </e>
-            <e p="ModuleType.cs" t="Include" />
             <e p="PersistenceChannel.cs" t="Include" />
             <e p="PersistenceHandler.cs" t="Include" />
           </e>

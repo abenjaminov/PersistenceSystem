@@ -1,11 +1,8 @@
 using UnityEngine;
 
-namespace Persistence
+public class Player : MonoBehaviour
 {
-    public class Player : MonoBehaviour
-    {
-        public int Level;
-        public int Hp;
-        public Color Color;
-    }
+    public int Level;
+    public int Hp;
+    public Color Color;
 }

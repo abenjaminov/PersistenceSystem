@@ -1,15 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="54b6cb1c-c6a1-46d3-b662-09a29bb3a86b" name="Default Changelist" comment="" />
+    <list default="true" id="54b6cb1c-c6a1-46d3-b662-09a29bb3a86b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Examples/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Examples/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Examples/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Examples/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Examples/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Examples/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnyGameComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnyGameComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Persistence/Models/ModuleToAccessorTuple.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Persistence/Models/ModuleToAccessorTuple.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Persistence/ModuleAccessors/BaseModuleAccessor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Persistence/ModuleAccessors/FileModuleAccessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Persistence/ModuleAccessors/FileModuleAccessor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Persistence/ModuleAccessors/ModuleAccessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Persistence/ModuleAccessors/ModuleAccessor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Persistence/ModuleType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Persistence/Modules/PersistenceModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Persistence/Modules/PersistenceModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Persistence/Modules/PlayerPersistenceModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Persistence/Modules/PlayerPersistenceModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Persistence/PersistenceChannel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Persistence/PersistenceChannel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/5d/7076933a/KeyValuePair`2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/IPersistentModuleAccessor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/IPersistenceModuleAccessor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9BAEBF9A-F865-4167-8FD1-5BFDBF5F26EB/b3/389c47b0/Color.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -33,7 +67,6 @@
         <option value="$PROJECT_DIR$/Assets/SerializeableVector3.cs" />
         <option value="$PROJECT_DIR$/Assets/SerializableVector3.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerPersistenceModule.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PersistenceChannel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/PersistenceInfo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ModuleAccessors/IPersistantModuleAccessor.cs" />
@@ -48,13 +81,20 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerPersistenceModule.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PersistenceModule.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PersistenceHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Persistence/PersistenceChannel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Persistence/Models/ModuleToAccessorTuple.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Persistence/PersistenceHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Persistence/Modules/PlayerPersistenceModule.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Persistence/Modules/PersistenceModule.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Persistence/ModuleAccessors/ModuleAccessor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Persistence/ModuleAccessors/FileModuleAccessor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Persistence/PersistenceChannel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnyGameComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="208PqPeUqs2GGcAw3c2NMXnsjRv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -76,10 +116,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="12800">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="12800" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -95,6 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635423439856</updated>
       <workItem from="1635423444081" duration="16746000" />
+      <workItem from="1635831532324" duration="107000" />
     </task>
     <servers />
   </component>
@@ -103,6 +144,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
@@ -179,5 +231,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1635431938115" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1635831551150">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1635831551150" />
   </component>
 </project>

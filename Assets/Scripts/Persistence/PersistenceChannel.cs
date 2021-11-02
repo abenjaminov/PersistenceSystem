@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace DefaultNamespace
+namespace Persistence
 {
     [CreateAssetMenu(fileName = "Persistence Channel", menuName = "Channels/Persistence")]
     public class PersistenceChannel : ScriptableObject

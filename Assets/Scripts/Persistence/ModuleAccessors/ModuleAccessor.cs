@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Persistence
+namespace Persistence.ModuleAccessors
 {
     public abstract class ModuleAccessor : ScriptableObject
     {

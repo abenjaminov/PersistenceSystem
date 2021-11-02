@@ -1,5 +1,5 @@
-using DefaultNamespace;
-using Persistence;
+using Persistence.Models;
+using Persistence.ModuleAccessors;
 using UnityEngine;
 
 namespace Persistence.Modules
